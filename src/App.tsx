@@ -46,7 +46,6 @@ export const App = () => {
   const handlerSubmit = (event: React.FormEvent) => {
     event.preventDefault();
 
-    event.preventDefault();
     setTitleError(!title);
     setUserIdError(!userId);
 
